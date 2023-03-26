@@ -1,7 +1,17 @@
 require "kemal"
 
+require "./views/**"
+
+def render_page(page : Views::BasePage)
+  page.to_html
+end
+
 get "/" do
-  "Hello World!"
+  render_page Views::Home::IndexPage.new(current_time: Time.utc)
+end
+
+get "/contact" do
+  render_page Views::Contact::IndexPage.new
 end
 
 Kemal.run
