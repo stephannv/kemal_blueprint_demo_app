@@ -1,0 +1,19 @@
+name: kemal_blueprint_demo_app
+version: 0.1.0
+
+authors:
+  - Stephann Vasconcelos <3025661+stephannv@users.noreply.github.com>
+
+targets:
+  kemal_blueprint_demo_app:
+    main: src/kemal_blueprint_demo_app.cr
+
+crystal: 1.7.3
+
+license: MIT
+
+dependencies:
+  blueprint:
+    github: stephannv/blueprint
+  kemal:
+    github: kemalcr/kemal
