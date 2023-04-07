@@ -1,4 +1,5 @@
 require "kemal"
+require "blueprint/html"
 
 require "./views/**"
 
@@ -11,7 +12,7 @@ get "/" do
 end
 
 get "/contact" do
-  render_page Views::Contact::IndexPage.new
+  render_page Views::Contacts::IndexPage.new
 end
 
 Kemal.run

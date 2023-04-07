@@ -15,5 +15,6 @@ license: MIT
 dependencies:
   blueprint:
     github: stephannv/blueprint
+
   kemal:
     github: kemalcr/kemal

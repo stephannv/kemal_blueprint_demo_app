@@ -6,7 +6,7 @@ shards:
 
   blueprint:
     git: https://github.com/stephannv/blueprint.git
-    version: 0.1.0+git.commit.ae12e1a0662ca09d546a1245c834fce82539d95f
+    version: 0.2.0
 
   exception_page:
     git: https://github.com/crystal-loot/exception_page.git

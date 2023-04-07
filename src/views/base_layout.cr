@@ -1,5 +1,3 @@
-require "blueprint"
-
 class Views::BaseLayout
   include Blueprint::HTML
 
