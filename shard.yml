@@ -8,7 +8,7 @@ targets:
   kemal_blueprint_demo_app:
     main: src/kemal_blueprint_demo_app.cr
 
-crystal: 1.7.3
+crystal: 1.16.0
 
 license: MIT
 
