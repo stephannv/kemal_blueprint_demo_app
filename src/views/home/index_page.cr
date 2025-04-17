@@ -1,8 +1,10 @@
+require "../base_page"
+
 class Views::Home::IndexPage < Views::BasePage
   def initialize(@current_time : Time); end
 
   def blueprint
-    my_page do |page|
+    render Views::Components::PageComponent.new do |page|
       page.title { "Blueprint + Kemal" }
       page.subtitle do
         plain "This is a POC showing how to integrate Blueprint and Kemal"

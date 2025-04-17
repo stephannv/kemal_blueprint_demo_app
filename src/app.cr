@@ -4,7 +4,7 @@ require "blueprint/html"
 require "./views/**"
 
 def render_page(page : Views::BasePage)
-  page.to_html
+  page.to_s
 end
 
 get "/" do
